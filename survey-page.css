@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.squarespace-cdn.com/content/v1/52ec28b3e4b0644432d9fd33/1454538036222-JT0VJJKPI23Q2PQ9WHQM/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/IMG_0034.JPG?format=1500w");
+  background-attachment: fixed;
+}
+#title {
+  color: teal;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-family: Anton;
+  font-size: 50px;
+}
+#description {
+  position: relative;
+  top: -30px;
+  font-family: Anton;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+}
+#survey-form {
+  display: block;
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  background-color: rgba(255, 255, 210, .8);
+  border-radius: 10px;
+}
+::placeholder {
+  font-family: Anton;
+  color: white;
+  opacity: 0.5;
+}
+.forme {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 40px;
+  background-color: #222222;
+  font-family: Anton;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+}
+label {
+  display: table;
+  margin-left: 20%;
+  color: black;
+  font-family: Anton;
+  font-size: 1.2em;
+}
+#textarea {
+  height: 100px;
+}
+#submit {
+  background-color: teal;
+  color: #222222;
+  font-size: 1.4em;
+  height: 45px;
+  display: block;
+  margin: auto;
+}
+#submit:hover {
+  animation-name: hello;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes hello {
+  100% {
+    background-color: rgba(255, 100, 100, 0.9);
+  }
+}
+@media (max-width: 1700px) {
+  label {
+    margin-left: 20px;
+    }
+  .forme {
+    margin-left: 20px;
+    width: 80%;
+  }
+}
